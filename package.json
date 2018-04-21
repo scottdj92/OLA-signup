@@ -1,0 +1,27 @@
+{
+  "name": "ola-signup",
+  "version": "1.0.0",
+  "description": "signup form for One Last Attempt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottdj92/OLA-signup.git"
+  },
+  "author": "Scott Jones",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottdj92/OLA-signup/issues"
+  },
+  "homepage": "https://github.com/scottdj92/OLA-signup#readme",
+  "dependencies": {
+    "pure-css": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.11.1",
+    "express": "^4.16.3"
+  }
+}

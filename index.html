@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>One Last Attempt</title>
+    <script src="./src/index.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css"/>
+</head>
+<body>
+    <nav class="pure-menu pure-menu-horizontal">
+        <img src="http://placekitten.com/200/300" alt="kitten"/>
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item">Discord</li>
+        </ul>
+    </nav>
+
+    <div>
+        <form action="" class="pure-form pure-form-stacked">
+            <fieldset>
+                <legend>Discord invite email signup</legend>
+                <label for="discord">Discord tag</label>
+                <input type="text" placeholder="Discord tag" required>
+
+                <label for="name">Character Name</label>
+                <input type="text" placeholder="Character name" required>
+
+                <label for="faction">Faction</label>
+                <input type="radio" name="faction" value="Alliance">Alliance <br/>
+                <input type="radio" name="faction" value="Horde">Horde <br/>
+                <input type="radio" name="faction" value="Both">Both <br/>
+
+                <button class="pure-button pure-button-primary" type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
